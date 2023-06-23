@@ -1,0 +1,23 @@
+kind: Secret
+apiVersion: v1
+metadata:
+  name: ghcr
+  namespace: zlic-ssahiti1
+  uid: e3c7703a-20d0-4f21-bf8d-e32e838cb8ea
+  resourceVersion: '1032888700'
+  creationTimestamp: '2023-06-15T12:31:37Z'
+  managedFields:
+    - manager: kubectl-create
+      operation: Update
+      apiVersion: v1
+      time: '2023-06-15T12:31:37Z'
+      fieldsType: FieldsV1
+      fieldsV1:
+        'f:data':
+          .: {}
+          'f:.dockerconfigjson': {}
+        'f:type': {}
+data:
+  .dockerconfigjson: >-
+    eyJhdXRocyI6eyJnaGNyLmlvIjp7InVzZXJuYW1lIjoic2hwZW5kaW1pIiwicGFzc3dvcmQiOiJnaHBfZWhuZm55VVNaVFpmaVQwV284WmxLaDBIYzJ4NExrMTRtVEZOIiwiYXV0aCI6ImMyaHdaVzVrYVcxcE9tZG9jRjlsYUc1bWJubFZVMXBVV21acFZEQlhiemhhYkV0b01FaGpNbmcwVEdzeE5HMVVSazQ9In19fQ==
+type: kubernetes.io/dockerconfigjson

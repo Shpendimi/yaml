@@ -1,0 +1,12 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: yanistest2
+spec:
+  to:
+    kind: Service
+    name: yanistest2
+  port:
+    targetPort: 8080
+  tls:
+    termination: edge
